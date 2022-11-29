@@ -1,14 +1,4 @@
-Write a Program to check a given number representation is in binary or not?
-
-User input will contain a single integer n. 0≤n≤30,000
-
-## Test case →
-
-1.  10101
-2.  112
-3.  29811
-
-
+//ASSIGNMENT 1
 
 #include <iostream>
 using namespace std;
