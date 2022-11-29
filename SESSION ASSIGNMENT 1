@@ -1,0 +1,38 @@
+Write a Program to check a given number representation is in binary or not?
+
+User input will contain a single integer n. 0≤n≤30,000
+
+## Test case →
+
+1.  10101
+2.  112
+3.  29811
+
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a,num;
+    cout<<"Enter the number : \n";
+    cin>>num;
+
+    while(num>0)
+    {
+        a=num%10;
+        
+        if(a!=1 && a!=0)
+        {
+            cout<<"Number is NOT Binary \n";
+            break;
+
+        }
+        else
+        {
+            cout<<"Number is Binary \n";
+            break;
+        }
+    }
+ return 0;   
+}
